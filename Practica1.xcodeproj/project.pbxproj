@@ -22,6 +22,7 @@
 		B9EAE8EF1A6B47010038D059 /* marge01.png in Resources */ = {isa = PBXBuildFile; fileRef = B9EAE8E91A6B47010038D059 /* marge01.png */; };
 		B9EAE8F21A6B54540038D059 /* GlobalVars.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EAE8F11A6B54540038D059 /* GlobalVars.m */; };
 		B9EAE8F51A6B65F50038D059 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EAE8F41A6B65F50038D059 /* ShowView.m */; };
+		B9EAE8F81A6BA2270038D059 /* EditView.m in Sources */ = {isa = PBXBuildFile; fileRef = B9EAE8F71A6BA2270038D059 /* EditView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		B9EAE8F11A6B54540038D059 /* GlobalVars.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalVars.m; sourceTree = "<group>"; };
 		B9EAE8F31A6B65F50038D059 /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
 		B9EAE8F41A6B65F50038D059 /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		B9EAE8F61A6BA2270038D059 /* EditView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditView.h; sourceTree = "<group>"; };
+		B9EAE8F71A6BA2270038D059 /* EditView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +110,8 @@
 				B97069561A6AFAB1008AAD58 /* Welcome.m */,
 				B9EAE8F31A6B65F50038D059 /* ShowView.h */,
 				B9EAE8F41A6B65F50038D059 /* ShowView.m */,
+				B9EAE8F61A6BA2270038D059 /* EditView.h */,
+				B9EAE8F71A6BA2270038D059 /* EditView.m */,
 				B97069581A6AFAB1008AAD58 /* Main.storyboard */,
 				B970695B1A6AFAB1008AAD58 /* Images.xcassets */,
 				B970695D1A6AFAB1008AAD58 /* LaunchScreen.xib */,
@@ -265,6 +270,7 @@
 				B97069571A6AFAB1008AAD58 /* Welcome.m in Sources */,
 				B97069541A6AFAB1008AAD58 /* AppDelegate.m in Sources */,
 				B9EAE8F51A6B65F50038D059 /* ShowView.m in Sources */,
+				B9EAE8F81A6BA2270038D059 /* EditView.m in Sources */,
 				B97069511A6AFAB1008AAD58 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

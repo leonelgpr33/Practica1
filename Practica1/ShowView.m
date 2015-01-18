@@ -19,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    opacidad = 1.0;
+    
+    self.lblNombre.text = globalArray[1][img];
+    self.lblEdad.text= globalArray[2][img];
     self.imgGallery.image = [UIImage imageNamed:imgArray [img]];
 }
 
@@ -39,6 +44,22 @@
 
 - (IBAction)btnBack:(id)sender {
     [self performSegueWithIdentifier:@"BackToMain" sender:self]
+    ;
+}
+
+- (IBAction)btnMore:(id)sender {
+    opacidad = opacidad + 0.2;
+    [self.imgGallery setAlpha:opacidad];
+
+}
+
+- (IBAction)btnLess:(id)sender {
+    opacidad = opacidad - 0.2;
+    [self.imgGallery setAlpha:opacidad];
+}
+
+- (IBAction)btnEdit:(id)sender {
+    [self performSegueWithIdentifier:@"GoToEdit" sender:self]
     ;
 }
 @end

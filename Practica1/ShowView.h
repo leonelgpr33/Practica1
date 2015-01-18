@@ -14,5 +14,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *lblEdad;
 
 - (IBAction)btnBack:(id)sender;
+- (IBAction)btnMore:(id)sender;
+- (IBAction)btnLess:(id)sender;
+- (IBAction)btnEdit:(id)sender;
 
 @end

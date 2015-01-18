@@ -9,7 +9,7 @@
 #import "Welcome.h"
 #import "GlobalVars.h"
 
-int img = 0;
+
 
 @interface Welcome ()
 
@@ -20,7 +20,7 @@ int img = 0;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    img = 0;
     imgArray = [[NSMutableArray alloc]
                 initWithObjects: @"bart01.PNG",
                 @"grandpa01.png",
@@ -30,6 +30,34 @@ int img = 0;
                 @"marge01.png",
                 nil
                 ];
+    nameArray = [[NSMutableArray alloc]
+                initWithObjects: @"Bart",
+                @"Abuelo",
+                @"Homero",
+                @"Lisa",
+                @"Maggie",
+                @"Marge",
+                nil
+                ];
+    ageArray = [[NSMutableArray alloc]
+                 initWithObjects: @"10",
+                 @"80",
+                 @"45",
+                 @"8",
+                 @"1",
+                 @"40",
+                 nil
+                 ];
+    
+    longitud = (int) imgArray.count;
+    
+    globalArray = [NSMutableArray arrayWithObjects:
+                   imgArray,
+                   nameArray,
+                   ageArray,
+                   nil];
+
+
     self.imgIntro.image= [UIImage imageNamed:imgArray[img]];
 }
 

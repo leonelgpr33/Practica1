@@ -9,8 +9,14 @@
 #import <Foundation/Foundation.h>
 
 int img;
+int longitud;
+float opacidad;
 
 NSMutableArray *imgArray;
+NSMutableArray *nameArray;
+NSMutableArray *ageArray;
+NSMutableArray *globalArray;
+
 
 @interface GlobalVars : NSObject
 
